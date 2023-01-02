@@ -1,0 +1,30 @@
+{
+  "name": "craq-preact-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "craq serve",
+    "build": "craq build",
+    "clean": "rm -rf build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
+    "craq": "^0.2.3",
+    "craq-client": "^0.2.0",
+    "craq-preact-redux": "^0.0.3",
+    "craq-preact-renderer": "^0.0.4",
+    "craq-server": "^0.2.0",
+    "preact": "^10.11.3",
+    "router6-preact": "^0.0.3"
+  },
+  "devDependencies": {
+    "craq-paq": "^0.0.2",
+    "prettier": "^2.8.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
